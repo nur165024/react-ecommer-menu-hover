@@ -1,0 +1,35 @@
+.bg-brand{
+    background-color: #02344F;
+}
+.mainMenu li{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    list-style-type: none;
+    line-height: 40px;
+}
+.mainMenu li a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #02344F;
+    padding: 5px 20px;
+    transition: ease-in-out .2s;
+    text-transform: capitalize;
+}
+.mainMenu li a:hover{
+    background: #02344F;
+    color: #fff;
+}
+.font_manu_left{
+    position:absolute;
+    right: 0;
+}
+#websiteMenu{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: #fff;
+}
